@@ -6,7 +6,7 @@
 #    By: jsiegers <jsiegers@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2021/07/25 00:22:23 by jsiegers      #+#    #+#                  #
-#    Updated: 2022/12/16 11:08:54 by jsiegers      ########   odam.nl          #
+#    Updated: 2022/12/17 19:39:26 by jsiegers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ NAME	= zombie
 CFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 .c.o:
-	c++ ${CFLAGS} -c $< -o ${<:.c=.o}
+	c++ ${CFLAGS} -c $< -o ${<:.cpp=.o}
 
 ${NAME}: ${OBJS}
 	c++ ${CFLAGS} -o ${NAME} ${OBJS}
