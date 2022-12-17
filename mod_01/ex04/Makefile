@@ -6,7 +6,7 @@
 #    By: jsiegers <jsiegers@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2021/07/25 00:22:23 by jsiegers      #+#    #+#                  #
-#    Updated: 2022/12/17 19:39:52 by jsiegers      ########   odam.nl          #
+#    Updated: 2022/12/17 20:28:28 by jsiegers      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,6 @@ fclean: clean
 test: all
 	g++ test.cpp -o test
 	./test
-
 
 re: fclean all
 
