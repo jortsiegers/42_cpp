@@ -2,7 +2,6 @@
 
 Zombie* zombieHorde( int N, std::string name );
 
-
 int main(int argc, char **argv) {
     Zombie *zombie = zombieHorde(10, "Mario");
 

@@ -5,8 +5,7 @@ Weapon::Weapon(std::string type) : type(type){
 }
 
 Weapon::~Weapon() {
-    if (DEBUG)
-        std::cout << "Weapon with type: '" << this->type << "' destructed" << std::endl;
+    return ;
 }
 
 const std::string &Weapon::getType() const {

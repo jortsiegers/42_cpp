@@ -1,8 +1,6 @@
 #ifndef WEAPON_H
 #define WEAPON_H 
 
-#define DEBUG 1
-
 #include <string>
 #include <iostream>
 
