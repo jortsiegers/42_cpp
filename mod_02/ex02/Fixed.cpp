@@ -98,12 +98,16 @@ bool Fixed::operator!=(Fixed const &other) {
 
 
 Fixed Fixed::operator+(const Fixed &other) {
-    Fixed res(this->getRawBits() + other.getRawBits());
+    Fixed res;
+    
+    res.setRawBits(this->getRawBits() + other.getRawBits());
     return res;
 }
 
 Fixed Fixed::operator-(const Fixed &other) {
-    Fixed res(this->getRawBits() - other.getRawBits());
+    Fixed res;
+    
+    res.setRawBits(this->getRawBits() - other.getRawBits());
     return res;
 }
 
